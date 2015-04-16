@@ -2,8 +2,8 @@
 # test job script. submit using "sbatch <script name>"
 #SBATCH -p development
 #SBATCH -n 1
-#SBATCH -o output/timing2.%j.out
-#SBATCH -e output/timing2.%j.err
+#SBATCH -o output/timing2_O3.%j.out
+#SBATCH -e output/timing2_O3.%j.err
 #SBATCH -t 00:05:00
 #SBATCH -A TG-ASC150014
 
