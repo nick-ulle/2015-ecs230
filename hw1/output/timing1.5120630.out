@@ -1,0 +1,125 @@
+Running `timing1 5000000`...
+Iteration 1:
+ clock:            40000  
+ t cpu:         0.040000 s
+ t real:        0.040381 s
+Iteration 2:
+ clock:            40000  
+ t cpu:         0.040000 s
+ t real:        0.040399 s
+Iteration 3:
+ clock:            30000  
+ t cpu:         0.030000 s
+ t real:        0.040389 s
+Iteration 4:
+ clock:            30000  
+ t cpu:         0.030000 s
+ t real:        0.040377 s
+Iteration 5:
+ clock:            30000  
+ t cpu:         0.030000 s
+ t real:        0.040389 s
+Iteration 6:
+ clock:            30000  
+ t cpu:         0.030000 s
+ t real:        0.040394 s
+Iteration 7:
+ clock:            30000  
+ t cpu:         0.030000 s
+ t real:        0.040385 s
+Iteration 8:
+ clock:            30000  
+ t cpu:         0.030000 s
+ t real:        0.040399 s
+Iteration 9:
+ clock:            40000  
+ t cpu:         0.040000 s
+ t real:        0.040392 s
+Iteration 10:
+ clock:            30000  
+ t cpu:         0.030000 s
+ t real:        0.040388 s
+
+Running `timing1 10000000`...
+Iteration 1:
+ clock:            70000  
+ t cpu:         0.070000 s
+ t real:        0.080764 s
+Iteration 2:
+ clock:            80000  
+ t cpu:         0.080000 s
+ t real:        0.080756 s
+Iteration 3:
+ clock:            70000  
+ t cpu:         0.070000 s
+ t real:        0.080774 s
+Iteration 4:
+ clock:            70000  
+ t cpu:         0.070000 s
+ t real:        0.080779 s
+Iteration 5:
+ clock:            70000  
+ t cpu:         0.070000 s
+ t real:        0.080805 s
+Iteration 6:
+ clock:            70000  
+ t cpu:         0.070000 s
+ t real:        0.080787 s
+Iteration 7:
+ clock:            70000  
+ t cpu:         0.070000 s
+ t real:        0.080802 s
+Iteration 8:
+ clock:            80000  
+ t cpu:         0.080000 s
+ t real:        0.080786 s
+Iteration 9:
+ clock:            80000  
+ t cpu:         0.080000 s
+ t real:        0.080784 s
+Iteration 10:
+ clock:            80000  
+ t cpu:         0.080000 s
+ t real:        0.080786 s
+
+Running `timing1 20000000`...
+Iteration 1:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161523 s
+Iteration 2:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161525 s
+Iteration 3:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161540 s
+Iteration 4:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161550 s
+Iteration 5:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161490 s
+Iteration 6:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161478 s
+Iteration 7:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161494 s
+Iteration 8:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161471 s
+Iteration 9:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161455 s
+Iteration 10:
+ clock:           160000  
+ t cpu:         0.160000 s
+ t real:        0.161463 s
