@@ -1,10 +1,11 @@
 
-#include "timer.h"
-#include "multiply.h"
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+
+#include "timer.h"
+#include "matrix.h"
+#include "multiply.h"
 
 #define TICKS_PER_SEC 2.7e9 
 // 1.5e9
