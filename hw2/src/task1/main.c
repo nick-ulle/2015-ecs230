@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <math.h>
 
 #define TICKS_PER_SEC 2.7e9 
 // 1.5e9
@@ -105,7 +104,7 @@ int main(int argc, char *argv[])
     double* C = matrix(n);
 
     // Compute flops and check timer resolution.
-    double flops = 2 * pow((double) n, 3.0);
+    int flops = 2 * n * n * n;
 
     long long ticks = readTSC();
     ticks = readTSC() - ticks;
@@ -114,7 +113,7 @@ int main(int argc, char *argv[])
     printf("[\n");
     printf("  # All times are in seconds.\n");
     printf("  # Assuming a %.2e Hz processor.\n", TICKS_PER_SEC);
-    printf("  # Matrix multiplication will require %.0f flops.\n", flops);
+    printf("  # Matrix multiplication will require %i flops.\n", flops);
     printf("  # TSC register has estimated resolution of %lli cycles.\n"
         , ticks);
     printf("\n");

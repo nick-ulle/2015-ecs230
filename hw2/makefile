@@ -2,7 +2,7 @@
 #CC = icc
 CC= clang
 CFLAGS= -Wall -Wextra $(include)
-#LDLIBS= -lm
+#LDLIBS=
 
 bin_dir= bin
 src_dir= src
@@ -24,7 +24,7 @@ task1: $(task1)
 task2: $(task2)
 
 # Link the main binary.
-$(task1): $(task1_objects) -lm
+$(task1): $(task1_objects)
 	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 
 $(task2): $(task2_objects)
