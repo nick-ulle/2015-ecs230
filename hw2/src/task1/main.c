@@ -90,14 +90,15 @@ int main(int argc, char *argv[])
     // A is an e matrix with negative integer antidiagonal.
     double *A = matrix(n);
     fill(A, n, 2.718282);
-    for (int i = 0; i < n; i++) {
+    int i;
+    for (i = 0; i < n; i++) {
         A[i + (n - i - 1) * n] = (double) -i;
     }
 
     // B is a pi matrix with integer diagonal.
     double *B = matrix(n);
     fill(B, n, 3.141593);
-    for (int i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) {
         B[i + i * n] = (double) i;
     }
 
@@ -118,7 +119,7 @@ int main(int argc, char *argv[])
         , ticks);
     printf("\n");
 
-    for (int i = 0; i < replications; i++) {
+    for (i = 0; i < replications; i++) {
         fill(C, n, 0.0);
 
         ticks = readTSC();

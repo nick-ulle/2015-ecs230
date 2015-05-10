@@ -1,23 +1,23 @@
 
 #CC = icc
-CC = clang
-CFLAGS = -Wall -Wextra $(include)
-#LDLIBS = -lm
+CC= clang
+CFLAGS= -Wall -Wextra $(include)
+#LDLIBS= -lm
 
-bin_dir = bin
-src_dir = src
-test_dir = tests
-tests = $(patsubst %.c, %, $(wildcard $(test_dir)/*.c))
+bin_dir= bin
+src_dir= src
+test_dir= tests
+tests= $(patsubst %.c, %, $(wildcard $(test_dir)/*.c))
 
-task1 = bin/task1
-task1_dir = $(src_dir)/task1
-task1_objects = $(patsubst %.c, %.o, $(wildcard $(task1_dir)/*.c))
+task1= bin/task1
+task1_dir= $(src_dir)/task1
+task1_objects= $(patsubst %.c, %.o, $(wildcard $(task1_dir)/*.c))
 
-task2 = bin/task2
-task2_dir = $(src_dir)/task2
-task2_objects = $(patsubst %.c, %.o, $(wildcard $(task2_dir)/*.c))
+task2= bin/task2
+task2_dir= $(src_dir)/task2
+task2_objects= $(patsubst %.c, %.o, $(wildcard $(task2_dir)/*.c))
 
-include = -I$(task1_dir) -I$(task2_dir)
+include= -I$(task1_dir) -I$(task2_dir)
 
 all: task1
 task1: $(task1)

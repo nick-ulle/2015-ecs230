@@ -21,8 +21,9 @@ double *matrix(int n)
  */
 void fill(double *mat, int n, double value)
 {
-    for (int c = 0; c < n; c++) {
-        for (int r = 0; r < n; r++) {
+    int c, r;
+    for (c = 0; c < n; c++) {
+        for (r = 0; r < n; r++) {
             mat[r + c * n] = value;
         }
     }
@@ -37,8 +38,9 @@ void fill(double *mat, int n, double value)
  */
 int equal(double *A, double *B, int n)
 {
-    for (int r = 0; r < n; r++) {
-        for (int c = 0; c < n; c++) {
+    int r, c;
+    for (r = 0; r < n; r++) {
+        for (c = 0; c < n; c++) {
             if (A[r + c * n] != B[r + c * n]) return 0;
         }
     }
@@ -54,8 +56,9 @@ int equal(double *A, double *B, int n)
  */
 void print_matrix(double *mat, int n)
 {
-    for (int r = 0; r < n; r++) {
-        for (int c = 0; c < n; c++) {
+    int r, c;
+    for (r = 0; r < n; r++) {
+        for (c = 0; c < n; c++) {
             // Print each row indented by two spaces.
             if (c == 0) printf(" ");
 
@@ -77,9 +80,10 @@ void print_matrix(double *mat, int n)
  */
 void multiply_ijk(double *A, double *B, int n, double *C)
 {
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-            for (int k = 0; k < n; k++)
+    int i, j, k;
+    for (i = 0; i < n; i++)
+        for (j = 0; j < n; j++)
+            for (k = 0; k < n; k++)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
@@ -88,9 +92,10 @@ void multiply_ijk(double *A, double *B, int n, double *C)
  */
 void multiply_ikj(double *A, double *B, int n, double *C)
 {
-    for (int i = 0; i < n; i++)
-        for (int k = 0; k < n; k++)
-            for (int j = 0; j < n; j++)
+    int i, j, k;
+    for (i = 0; i < n; i++)
+        for (k = 0; k < n; k++)
+            for (j = 0; j < n; j++)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
@@ -99,9 +104,10 @@ void multiply_ikj(double *A, double *B, int n, double *C)
  */
 void multiply_jik(double *A, double *B, int n, double *C)
 {
-    for (int j = 0; j < n; j++)
-        for (int i = 0; i < n; i++)
-            for (int k = 0; k < n; k++)
+    int i, j, k;
+    for (j = 0; j < n; j++)
+        for (i = 0; i < n; i++)
+            for (k = 0; k < n; k++)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
@@ -110,9 +116,10 @@ void multiply_jik(double *A, double *B, int n, double *C)
  */
 void multiply_jki(double *A, double *B, int n, double *C)
 {
-    for (int j = 0; j < n; j++)
-        for (int i = 0; i < n; i++)
-            for (int k = 0; k < n; k++)
+    int i, j, k;
+    for (j = 0; j < n; j++)
+        for (k = 0; k < n; k++)
+            for (i = 0; i < n; i++)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
@@ -121,9 +128,10 @@ void multiply_jki(double *A, double *B, int n, double *C)
  */
 void multiply_kij(double *A, double *B, int n, double *C)
 {
-    for (int k = 0; k < n; k++)
-        for (int i = 0; i < n; i++)
-            for (int j = 0; j < n; j++)
+    int i, j, k;
+    for (k = 0; k < n; k++)
+        for (i = 0; i < n; i++)
+            for (j = 0; j < n; j++)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
@@ -132,9 +140,10 @@ void multiply_kij(double *A, double *B, int n, double *C)
  */
 void multiply_kji(double *A, double *B, int n, double *C)
 {
-    for (int k = 0; k < n; k++)
-        for (int j = 0; j < n; j++)
-            for (int i = 0; i < n; i++)
+    int i, j, k;
+    for (k = 0; k < n; k++)
+        for (j = 0; j < n; j++)
+            for (i = 0; i < n; i++)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
@@ -148,10 +157,11 @@ void multiply_kji(double *A, double *B, int n, double *C)
  */
 void multiply_acc(double *A, double *B, int n, double *C)
 {
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++) {
+    int i, j, k;
+    for (i = 0; i < n; i++)
+        for (j = 0; j < n; j++) {
             double sum = 0.0;
-            for (int k = 0; k < n; k++)
+            for (k = 0; k < n; k++)
                 sum += A[i + k * n] * B[k + j * n];
             C[i + j * n] = sum;
         }
