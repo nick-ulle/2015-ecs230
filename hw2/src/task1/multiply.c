@@ -3,6 +3,16 @@
 #include <stdio.h>
 
 /**
+ * Allocate memory for a square matrix.
+ *
+ * @param n dimension of matrix
+ */
+double *matrix(int n) 
+{
+    return malloc(n * n * sizeof(double));
+}
+
+/**
  * Fill a square matrix with a value.
  *
  * @param mat matrix to fill
@@ -16,20 +26,6 @@ void fill(double *mat, int n, double value)
             mat[r + c * n] = value;
         }
     }
-}
-
-/**
- * Allocate memory for a square matrix and fill.
- *
- * @param n dimension of matrix
- * @param value value to fill with
- */
-double *matrix(int n, double value) 
-{
-    double* mat = malloc(n * n * sizeof(double));
-    fill(mat, n, value);
-
-    return mat;
 }
 
 /**
@@ -87,6 +83,9 @@ void multiply_ijk(double *A, double *B, int n, double *C)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
+/**
+ * Multiply two square matrices.
+ */
 void multiply_ikj(double *A, double *B, int n, double *C)
 {
     for (int i = 0; i < n; i++)
@@ -95,6 +94,9 @@ void multiply_ikj(double *A, double *B, int n, double *C)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
+/**
+ * Multiply two square matrices.
+ */
 void multiply_jik(double *A, double *B, int n, double *C)
 {
     for (int j = 0; j < n; j++)
@@ -103,6 +105,9 @@ void multiply_jik(double *A, double *B, int n, double *C)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
+/**
+ * Multiply two square matrices.
+ */
 void multiply_jki(double *A, double *B, int n, double *C)
 {
     for (int j = 0; j < n; j++)
@@ -111,6 +116,9 @@ void multiply_jki(double *A, double *B, int n, double *C)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
+/**
+ * Multiply two square matrices.
+ */
 void multiply_kij(double *A, double *B, int n, double *C)
 {
     for (int k = 0; k < n; k++)
@@ -119,6 +127,9 @@ void multiply_kij(double *A, double *B, int n, double *C)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
+/**
+ * Multiply two square matrices.
+ */
 void multiply_kji(double *A, double *B, int n, double *C)
 {
     for (int k = 0; k < n; k++)
@@ -127,6 +138,14 @@ void multiply_kji(double *A, double *B, int n, double *C)
                 C[i + j * n] += A[i + k * n] * B[k + j * n];
 }
 
+/**
+ * Multiply two square matrices in ijk order using an accumulator.
+ *
+ * @param A first matrix
+ * @param B second matrix
+ * @param n dimension of matrices
+ * @param[out] C product AB
+ */
 void multiply_acc(double *A, double *B, int n, double *C)
 {
     for (int i = 0; i < n; i++)

@@ -2,7 +2,7 @@
 #ifndef _multiply_h
 #define _multiply_h
 
-double *matrix(int n, double value);
+double *matrix(int n);
 
 int equal(double *A, double *B, int n);
 void print_matrix(double *mat, int n);

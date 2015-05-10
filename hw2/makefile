@@ -1,32 +1,45 @@
 
+#CC = icc
 CC = clang
 CFLAGS = -Wall -Wextra $(include)
-LDLIBS = -lm
-
-target = bin/mult
-include = -I$(src_dir)
+#LDLIBS = -lm
 
 bin_dir = bin
 src_dir = src
 test_dir = tests
-objects = $(patsubst %.c, %.o, $(wildcard $(src_dir)/*.c))
 tests = $(patsubst %.c, %, $(wildcard $(test_dir)/*.c))
 
-all: $(target)
+task1 = bin/task1
+task1_dir = $(src_dir)/task1
+task1_objects = $(patsubst %.c, %.o, $(wildcard $(task1_dir)/*.c))
+
+task2 = bin/task2
+task2_dir = $(src_dir)/task2
+task2_objects = $(patsubst %.c, %.o, $(wildcard $(task2_dir)/*.c))
+
+include = -I$(task1_dir) -I$(task2_dir)
+
+all: task1
+task1: $(task1)
+task2: $(task2)
 
 # Link the main binary.
-$(target): $(objects)
+$(task1): $(task1_objects) -lm
+	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
+
+$(task2): $(task2_objects)
 	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 
 # Run the tests.
 tests: $(tests)
 
 clean:
-	rm -f $(target) $(tests)
+	rm -f $(task1) $(task2) $(tests)
 
 rebuild: clean all
 
 .PHONY: all tests clean rebuild
 
 # Automatically delete .o files.
-.INTERMEDIATE: $(objects)
+.INTERMEDIATE: $(task1_objects) $(task2_objects)
+

@@ -1,40 +1,25 @@
 #!/bin/bash
-# test job script. submit using "sbatch <script name>"
+# Usage:
+#   sbatch <script>
+
 #SBATCH -p development
 #SBATCH -n 1
 #SBATCH -o output/timing1.%j.out
 #SBATCH -e output/timing1.%j.err
-#SBATCH -t 00:05:00
+#SBATCH -t 01:00:00
 #SBATCH -A TG-ASC150014
 
-#args="100 200 500 1000 2000 5000"
-args="10 20"
+dims="100 200 500 1000 2000 5000"
+orders="ijk ikj kij jik jki kji"
+replications=10
 
-#for i in {1..3}
-#do
-    echo '['
-    for arg in $args
+echo "["
+for dim in $dims
+do
+    for order in $orders
     do
-        echo '{'
-        bin/mult $arg
-        echo '},'
+        bin/task1 $dim $order $replications
     done
-    echo ']'
-#done
-
-#echo ""
-#echo 'Running `timing1 10000000`...'
-#for i in {1..10}
-#do
-#    echo "Iteration $i:"
-#    bin/timing1 10000000
-#done
-#
-#echo ""
-#echo 'Running `timing1 20000000`...'
-#for i in {1..10}
-#do
-#    echo "Iteration $i:"
-#    bin/timing1 20000000
-#done
+done
+echo "]"
 
