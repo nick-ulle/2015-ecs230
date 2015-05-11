@@ -82,8 +82,6 @@ int main(int argc, char** argv)
     for (i = 0; i < n; i++) {
         A[i + (n - i - 1) * n] = -(1.0 + i / 100.0);
     }
-    print_matrix(A, n);
-    printf("\n");
 
     // B is a pi matrix with positive diagonal sequence.
     double *B = matrix(n);
@@ -91,8 +89,6 @@ int main(int argc, char** argv)
     for (i = 0; i < n; i++) {
         B[i + i * n] = 1.0 + i / 100.0;
     }
-    print_matrix(B, n);
-    printf("\n");
 
     double *C = matrix(n);
 

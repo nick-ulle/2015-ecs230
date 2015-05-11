@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     // Error Checking -------------------------------------------------------
     if (argc < 2) {
         printf("Usage:\n");
-        printf("    mult n [order] [replications]\n");
+        printf("    task1 n [order] [replications]\n");
         exit(1);
     }
 
