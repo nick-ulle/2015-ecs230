@@ -66,6 +66,8 @@ void check_positive(int value, char *name) {
 
 int main(int argc, char *argv[])
 {
+    int i;
+
     // Error Checking -------------------------------------------------------
     if (argc < 2) {
         printf("Usage:\n");
@@ -90,7 +92,6 @@ int main(int argc, char *argv[])
     // A is an e matrix with negative antidiagonal sequence.
     double *A = matrix(n);
     fill(A, n, 2.718282);
-    int i;
     for (i = 0; i < n; i++) {
         A[i + (n - i - 1) * n] = -(1.0 + i / 100);
     }
