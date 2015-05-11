@@ -35,7 +35,7 @@ int main(int argc, char** argv)
     double *A = matrix(n);
     fill(A, n, 2.718282);
     for (i = 0; i < n; i++) {
-        A[i + (n - i - 1) * n] = -(1.0 + i / 100);
+        A[i + (n - i - 1) * n] = -(1.0 + i / 100.0);
     }
     print_matrix(A, n);
     printf("\n");
@@ -44,7 +44,7 @@ int main(int argc, char** argv)
     double *B = matrix(n);
     fill(B, n, 3.141593);
     for (i = 0; i < n; i++) {
-        B[i + i * n] = 1.0 + i / 100;
+        B[i + i * n] = 1.0 + i / 100.0;
     }
     print_matrix(B, n);
     printf("\n");

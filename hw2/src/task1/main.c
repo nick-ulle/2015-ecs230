@@ -22,7 +22,7 @@ void print_hjson(int n, char *order, long long ticks, double flops)
     printf("    order: %s\n", order);
     printf("    cycles: %lli\n", ticks);
 
-    double time = ticks / TICKS_PER_SEC;
+    double time = (double) ticks / TICKS_PER_SEC;
     printf("    time: %f\n", time);
     printf("    flops_per_cycle: %f\n", flops / ticks);
     printf("    gflops_per_sec: %f\n", 1e-9 * flops / time);
@@ -93,14 +93,14 @@ int main(int argc, char *argv[])
     double *A = matrix(n);
     fill(A, n, 2.718282);
     for (i = 0; i < n; i++) {
-        A[i + (n - i - 1) * n] = -(1.0 + i / 100);
+        A[i + (n - i - 1) * n] = -(1.0 + i / 100.0);
     }
 
     // B is a pi matrix with positive diagonal sequence.
     double *B = matrix(n);
     fill(B, n, 3.141593);
     for (i = 0; i < n; i++) {
-        B[i + i * n] = 1.0 + i / 100;
+        B[i + i * n] = 1.0 + i / 100.0;
     }
 
     double* C = matrix(n);
