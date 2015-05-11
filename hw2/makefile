@@ -20,7 +20,7 @@ task2_objects= $(patsubst %.c, %.o, $(wildcard $(task2_dir)/*.c))
 
 include= -I$(src_dir) -I$(task1_dir) -I$(task2_dir)
 
-all: task1
+all: task1 task2
 task1: $(task1)
 task2: $(task2)
 
@@ -33,6 +33,8 @@ $(task2): $(objects) $(task2_objects)
 
 # Run the tests.
 tests: $(tests)
+
+$(tests): $(objects) $(task1_dir)/multiply.o
 
 clean:
 	rm -f $(task1) $(task2) $(tests)

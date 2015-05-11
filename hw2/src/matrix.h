@@ -3,9 +3,9 @@
 #define _matrix_h
 
 double *matrix(int n);
-void fill(double *mat, int n, double value);
+void matrix_fill(double *mat, int n, double value);
 
-int equal(double *A, double *B, int n);
-void print_matrix(double *mat, int n);
+int matrix_equal(double *A, double *B, int n);
+void matrix_print(double *mat, int n);
 
 #endif

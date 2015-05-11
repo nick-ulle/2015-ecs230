@@ -24,7 +24,7 @@ double *matrix(int n)
  * @param n dimension of matrix
  * @param value value to fill with
  */
-void fill(double *mat, int n, double value)
+void matrix_fill(double *mat, int n, double value)
 {
     int c, r;
     for (c = 0; c < n; c++) {
@@ -41,7 +41,7 @@ void fill(double *mat, int n, double value)
  * @param B second matrix
  * @param n dimension of matrices
  */
-int equal(double *A, double *B, int n)
+int matrix_equal(double *A, double *B, int n)
 {
     int r, c;
     for (r = 0; r < n; r++) {
@@ -59,7 +59,7 @@ int equal(double *A, double *B, int n)
  * @param mat matrix to print
  * @param n dimension of matrix
  */
-void print_matrix(double *mat, int n)
+void matrix_print(double *mat, int n)
 {
     int r, c;
     for (r = 0; r < n; r++) {

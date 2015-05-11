@@ -1,3 +1,8 @@
+/**
+ * timer.c
+ *
+ * Timer routines.
+ */
 
 /**
  * Retrieve Intel x86 cycle count.
