@@ -87,19 +87,19 @@ int main(int argc, char *argv[])
     }
 
     // Initialization -------------------------------------------------------
-    // A is an e matrix with negative integer antidiagonal.
+    // A is an e matrix with negative antidiagonal sequence.
     double *A = matrix(n);
     fill(A, n, 2.718282);
     int i;
     for (i = 0; i < n; i++) {
-        A[i + (n - i - 1) * n] = (double) -i;
+        A[i + (n - i - 1) * n] = -(1.0 + i / 100);
     }
 
-    // B is a pi matrix with integer diagonal.
+    // B is a pi matrix with positive diagonal sequence.
     double *B = matrix(n);
     fill(B, n, 3.141593);
     for (i = 0; i < n; i++) {
-        B[i + i * n] = (double) i;
+        B[i + i * n] = 1.0 + i / 100;
     }
 
     double* C = matrix(n);

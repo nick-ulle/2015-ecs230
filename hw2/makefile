@@ -1,6 +1,6 @@
 
-#CC = icc
-CC= clang
+#CC= clang
+CC = icc
 CFLAGS= -Wall -Wextra $(include)
 #LDLIBS=
 
@@ -29,7 +29,7 @@ $(task1): $(objects) $(task1_objects)
 	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
 
 $(task2): $(objects) $(task2_objects)
-	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS)
+	$(CC) $(LDFLAGS) -o $@ $^ $(LDLIBS) -mkl=sequential
 
 # Run the tests.
 tests: $(tests)
