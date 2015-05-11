@@ -70,8 +70,8 @@ int main(int argc, char** argv)
     check_positive(n, "n");
 
     int replications = 1;
-    if (argc >= 4) {
-        replications = atoi(argv[3]);
+    if (argc >= 3) {
+        replications = atoi(argv[2]);
         check_positive(replications, "replications");
     }
 
