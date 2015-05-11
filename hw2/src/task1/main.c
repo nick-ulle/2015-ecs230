@@ -1,3 +1,8 @@
+/**
+ * main.c
+ *
+ * Main program for task 1.
+ */
 
 #include <stdlib.h>
 #include <stdio.h>
