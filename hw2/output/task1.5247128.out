@@ -1,0 +1,2611 @@
+[
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+06 flops.
+  # TSC register has estimated resolution of 33 cycles.
+
+  {
+    n: 100
+    order: ijk
+    cycles: 2838291
+    time: 0.00105122
+    flops_per_cycle: 0.704649
+    gflops_per_sec: 1.90255
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2838099
+    time: 0.00105115
+    flops_per_cycle: 0.704697
+    gflops_per_sec: 1.90268
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2855727
+    time: 0.00105768
+    flops_per_cycle: 0.700347
+    gflops_per_sec: 1.89094
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2858664
+    time: 0.00105876
+    flops_per_cycle: 0.699628
+    gflops_per_sec: 1.88899
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2877813
+    time: 0.00106586
+    flops_per_cycle: 0.694972
+    gflops_per_sec: 1.87642
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2824779
+    time: 0.00104621
+    flops_per_cycle: 0.70802
+    gflops_per_sec: 1.91165
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2827482
+    time: 0.00104722
+    flops_per_cycle: 0.707343
+    gflops_per_sec: 1.90983
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2865018
+    time: 0.00106112
+    flops_per_cycle: 0.698076
+    gflops_per_sec: 1.8848
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2867013
+    time: 0.00106186
+    flops_per_cycle: 0.69759
+    gflops_per_sec: 1.88349
+  }
+  {
+    n: 100
+    order: ijk
+    cycles: 2878920
+    time: 0.00106627
+    flops_per_cycle: 0.694705
+    gflops_per_sec: 1.8757
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+06 flops.
+  # TSC register has estimated resolution of 42 cycles.
+
+  {
+    n: 100
+    order: ikj
+    cycles: 2792091
+    time: 0.00103411
+    flops_per_cycle: 0.716309
+    gflops_per_sec: 1.93403
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2786625
+    time: 0.00103208
+    flops_per_cycle: 0.717714
+    gflops_per_sec: 1.93783
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2787051
+    time: 0.00103224
+    flops_per_cycle: 0.717604
+    gflops_per_sec: 1.93753
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2784165
+    time: 0.00103117
+    flops_per_cycle: 0.718348
+    gflops_per_sec: 1.93954
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2784474
+    time: 0.00103129
+    flops_per_cycle: 0.718269
+    gflops_per_sec: 1.93932
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2784906
+    time: 0.00103145
+    flops_per_cycle: 0.718157
+    gflops_per_sec: 1.93902
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2799603
+    time: 0.00103689
+    flops_per_cycle: 0.714387
+    gflops_per_sec: 1.92884
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2785968
+    time: 0.00103184
+    flops_per_cycle: 0.717883
+    gflops_per_sec: 1.93829
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2785932
+    time: 0.00103183
+    flops_per_cycle: 0.717893
+    gflops_per_sec: 1.93831
+  }
+  {
+    n: 100
+    order: ikj
+    cycles: 2807232
+    time: 0.00103972
+    flops_per_cycle: 0.712446
+    gflops_per_sec: 1.9236
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+06 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 100
+    order: kij
+    cycles: 2812098
+    time: 0.00104152
+    flops_per_cycle: 0.711213
+    gflops_per_sec: 1.92027
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2796060
+    time: 0.00103558
+    flops_per_cycle: 0.715292
+    gflops_per_sec: 1.93129
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2803872
+    time: 0.00103847
+    flops_per_cycle: 0.713299
+    gflops_per_sec: 1.92591
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2803932
+    time: 0.00103849
+    flops_per_cycle: 0.713284
+    gflops_per_sec: 1.92587
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2807832
+    time: 0.00103994
+    flops_per_cycle: 0.712293
+    gflops_per_sec: 1.92319
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2795280
+    time: 0.00103529
+    flops_per_cycle: 0.715492
+    gflops_per_sec: 1.93183
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2832114
+    time: 0.00104893
+    flops_per_cycle: 0.706186
+    gflops_per_sec: 1.9067
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2794707
+    time: 0.00103508
+    flops_per_cycle: 0.715639
+    gflops_per_sec: 1.93222
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2791923
+    time: 0.00103405
+    flops_per_cycle: 0.716352
+    gflops_per_sec: 1.93415
+  }
+  {
+    n: 100
+    order: kij
+    cycles: 2802819
+    time: 0.00103808
+    flops_per_cycle: 0.713567
+    gflops_per_sec: 1.92663
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+06 flops.
+  # TSC register has estimated resolution of 45 cycles.
+
+  {
+    n: 100
+    order: jik
+    cycles: 2853465
+    time: 0.00105684
+    flops_per_cycle: 0.700902
+    gflops_per_sec: 1.89244
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2847120
+    time: 0.00105449
+    flops_per_cycle: 0.702464
+    gflops_per_sec: 1.89665
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2856099
+    time: 0.00105781
+    flops_per_cycle: 0.700256
+    gflops_per_sec: 1.89069
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2845914
+    time: 0.00105404
+    flops_per_cycle: 0.702762
+    gflops_per_sec: 1.89746
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2846682
+    time: 0.00105433
+    flops_per_cycle: 0.702572
+    gflops_per_sec: 1.89695
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2846388
+    time: 0.00105422
+    flops_per_cycle: 0.702645
+    gflops_per_sec: 1.89714
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2872452
+    time: 0.00106387
+    flops_per_cycle: 0.696269
+    gflops_per_sec: 1.87993
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2846871
+    time: 0.0010544
+    flops_per_cycle: 0.702526
+    gflops_per_sec: 1.89682
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2850738
+    time: 0.00105583
+    flops_per_cycle: 0.701573
+    gflops_per_sec: 1.89425
+  }
+  {
+    n: 100
+    order: jik
+    cycles: 2851035
+    time: 0.00105594
+    flops_per_cycle: 0.7015
+    gflops_per_sec: 1.89405
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+06 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 100
+    order: jki
+    cycles: 1305144
+    time: 0.000483387
+    flops_per_cycle: 1.5324
+    gflops_per_sec: 4.13747
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1286421
+    time: 0.000476452
+    flops_per_cycle: 1.5547
+    gflops_per_sec: 4.19769
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1281126
+    time: 0.000474491
+    flops_per_cycle: 1.56113
+    gflops_per_sec: 4.21504
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1292085
+    time: 0.00047855
+    flops_per_cycle: 1.54789
+    gflops_per_sec: 4.17929
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1285233
+    time: 0.000476012
+    flops_per_cycle: 1.55614
+    gflops_per_sec: 4.20157
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1301199
+    time: 0.000481926
+    flops_per_cycle: 1.53704
+    gflops_per_sec: 4.15002
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1283595
+    time: 0.000475406
+    flops_per_cycle: 1.55812
+    gflops_per_sec: 4.20693
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1289511
+    time: 0.000477597
+    flops_per_cycle: 1.55098
+    gflops_per_sec: 4.18763
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1282839
+    time: 0.000475126
+    flops_per_cycle: 1.55904
+    gflops_per_sec: 4.20941
+  }
+  {
+    n: 100
+    order: jki
+    cycles: 1287480
+    time: 0.000476844
+    flops_per_cycle: 1.55342
+    gflops_per_sec: 4.19424
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+06 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 100
+    order: kji
+    cycles: 1286817
+    time: 0.000476599
+    flops_per_cycle: 1.55422
+    gflops_per_sec: 4.1964
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1242039
+    time: 0.000460014
+    flops_per_cycle: 1.61026
+    gflops_per_sec: 4.34769
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1250331
+    time: 0.000463086
+    flops_per_cycle: 1.59958
+    gflops_per_sec: 4.31886
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1240248
+    time: 0.000459351
+    flops_per_cycle: 1.61258
+    gflops_per_sec: 4.35397
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1246755
+    time: 0.000461761
+    flops_per_cycle: 1.60416
+    gflops_per_sec: 4.33124
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1241448
+    time: 0.000459796
+    flops_per_cycle: 1.61102
+    gflops_per_sec: 4.34976
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1248051
+    time: 0.000462241
+    flops_per_cycle: 1.6025
+    gflops_per_sec: 4.32675
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1241928
+    time: 0.000459973
+    flops_per_cycle: 1.6104
+    gflops_per_sec: 4.34808
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1240029
+    time: 0.00045927
+    flops_per_cycle: 1.61287
+    gflops_per_sec: 4.35474
+  }
+  {
+    n: 100
+    order: kji
+    cycles: 1240671
+    time: 0.000459508
+    flops_per_cycle: 1.61203
+    gflops_per_sec: 4.35248
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+07 flops.
+  # TSC register has estimated resolution of 33 cycles.
+
+  {
+    n: 200
+    order: ijk
+    cycles: 24200484
+    time: 0.00896314
+    flops_per_cycle: 0.661144
+    gflops_per_sec: 1.78509
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24172293
+    time: 0.0089527
+    flops_per_cycle: 0.661915
+    gflops_per_sec: 1.78717
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24157635
+    time: 0.00894727
+    flops_per_cycle: 0.662316
+    gflops_per_sec: 1.78825
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24124677
+    time: 0.00893507
+    flops_per_cycle: 0.663221
+    gflops_per_sec: 1.7907
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24150414
+    time: 0.0089446
+    flops_per_cycle: 0.662515
+    gflops_per_sec: 1.78879
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24164778
+    time: 0.00894992
+    flops_per_cycle: 0.662121
+    gflops_per_sec: 1.78773
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24162063
+    time: 0.00894891
+    flops_per_cycle: 0.662195
+    gflops_per_sec: 1.78793
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24147729
+    time: 0.0089436
+    flops_per_cycle: 0.662588
+    gflops_per_sec: 1.78899
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24123297
+    time: 0.00893455
+    flops_per_cycle: 0.663259
+    gflops_per_sec: 1.7908
+  }
+  {
+    n: 200
+    order: ijk
+    cycles: 24148314
+    time: 0.00894382
+    flops_per_cycle: 0.662572
+    gflops_per_sec: 1.78894
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+07 flops.
+  # TSC register has estimated resolution of 78 cycles.
+
+  {
+    n: 200
+    order: ikj
+    cycles: 25882932
+    time: 0.00958627
+    flops_per_cycle: 0.618168
+    gflops_per_sec: 1.66905
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25875717
+    time: 0.0095836
+    flops_per_cycle: 0.61834
+    gflops_per_sec: 1.66952
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25886742
+    time: 0.00958768
+    flops_per_cycle: 0.618077
+    gflops_per_sec: 1.66881
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25840878
+    time: 0.0095707
+    flops_per_cycle: 0.619174
+    gflops_per_sec: 1.67177
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25867233
+    time: 0.00958046
+    flops_per_cycle: 0.618543
+    gflops_per_sec: 1.67007
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25860819
+    time: 0.00957808
+    flops_per_cycle: 0.618697
+    gflops_per_sec: 1.67048
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25851861
+    time: 0.00957476
+    flops_per_cycle: 0.618911
+    gflops_per_sec: 1.67106
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25861644
+    time: 0.00957839
+    flops_per_cycle: 0.618677
+    gflops_per_sec: 1.67043
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25843563
+    time: 0.00957169
+    flops_per_cycle: 0.61911
+    gflops_per_sec: 1.6716
+  }
+  {
+    n: 200
+    order: ikj
+    cycles: 25852419
+    time: 0.00957497
+    flops_per_cycle: 0.618898
+    gflops_per_sec: 1.67102
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+07 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 200
+    order: kij
+    cycles: 26813670
+    time: 0.00993099
+    flops_per_cycle: 0.596711
+    gflops_per_sec: 1.61112
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26739900
+    time: 0.00990367
+    flops_per_cycle: 0.598357
+    gflops_per_sec: 1.61556
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26744568
+    time: 0.0099054
+    flops_per_cycle: 0.598252
+    gflops_per_sec: 1.61528
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26728356
+    time: 0.00989939
+    flops_per_cycle: 0.598615
+    gflops_per_sec: 1.61626
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26718129
+    time: 0.0098956
+    flops_per_cycle: 0.598844
+    gflops_per_sec: 1.61688
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26720163
+    time: 0.00989636
+    flops_per_cycle: 0.598799
+    gflops_per_sec: 1.61676
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26760492
+    time: 0.00991129
+    flops_per_cycle: 0.597896
+    gflops_per_sec: 1.61432
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26701728
+    time: 0.00988953
+    flops_per_cycle: 0.599212
+    gflops_per_sec: 1.61787
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26739429
+    time: 0.00990349
+    flops_per_cycle: 0.598367
+    gflops_per_sec: 1.61559
+  }
+  {
+    n: 200
+    order: kij
+    cycles: 26728908
+    time: 0.0098996
+    flops_per_cycle: 0.598603
+    gflops_per_sec: 1.61623
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+07 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 200
+    order: jik
+    cycles: 25239576
+    time: 0.00934799
+    flops_per_cycle: 0.633925
+    gflops_per_sec: 1.7116
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25264650
+    time: 0.00935728
+    flops_per_cycle: 0.633296
+    gflops_per_sec: 1.7099
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25254591
+    time: 0.00935355
+    flops_per_cycle: 0.633548
+    gflops_per_sec: 1.71058
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25235055
+    time: 0.00934632
+    flops_per_cycle: 0.634039
+    gflops_per_sec: 1.7119
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25239375
+    time: 0.00934792
+    flops_per_cycle: 0.63393
+    gflops_per_sec: 1.71161
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25242948
+    time: 0.00934924
+    flops_per_cycle: 0.63384
+    gflops_per_sec: 1.71137
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25233660
+    time: 0.0093458
+    flops_per_cycle: 0.634074
+    gflops_per_sec: 1.712
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25299957
+    time: 0.00937035
+    flops_per_cycle: 0.632412
+    gflops_per_sec: 1.70751
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25234014
+    time: 0.00934593
+    flops_per_cycle: 0.634065
+    gflops_per_sec: 1.71197
+  }
+  {
+    n: 200
+    order: jik
+    cycles: 25230885
+    time: 0.00934477
+    flops_per_cycle: 0.634143
+    gflops_per_sec: 1.71219
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+07 flops.
+  # TSC register has estimated resolution of 45 cycles.
+
+  {
+    n: 200
+    order: jki
+    cycles: 10948650
+    time: 0.00405506
+    flops_per_cycle: 1.46137
+    gflops_per_sec: 3.94569
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10953618
+    time: 0.0040569
+    flops_per_cycle: 1.4607
+    gflops_per_sec: 3.9439
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10930206
+    time: 0.00404822
+    flops_per_cycle: 1.46383
+    gflops_per_sec: 3.95235
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10937787
+    time: 0.00405103
+    flops_per_cycle: 1.46282
+    gflops_per_sec: 3.94961
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10931460
+    time: 0.00404869
+    flops_per_cycle: 1.46367
+    gflops_per_sec: 3.9519
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10935921
+    time: 0.00405034
+    flops_per_cycle: 1.46307
+    gflops_per_sec: 3.95028
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10942050
+    time: 0.00405261
+    flops_per_cycle: 1.46225
+    gflops_per_sec: 3.94807
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10961715
+    time: 0.00405989
+    flops_per_cycle: 1.45963
+    gflops_per_sec: 3.94099
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10978275
+    time: 0.00406603
+    flops_per_cycle: 1.45742
+    gflops_per_sec: 3.93504
+  }
+  {
+    n: 200
+    order: jki
+    cycles: 10990326
+    time: 0.00407049
+    flops_per_cycle: 1.45583
+    gflops_per_sec: 3.93073
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+07 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 200
+    order: kji
+    cycles: 12340431
+    time: 0.00457053
+    flops_per_cycle: 1.29655
+    gflops_per_sec: 3.50069
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12336543
+    time: 0.00456909
+    flops_per_cycle: 1.29696
+    gflops_per_sec: 3.50179
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12344367
+    time: 0.00457199
+    flops_per_cycle: 1.29614
+    gflops_per_sec: 3.49957
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12350373
+    time: 0.00457421
+    flops_per_cycle: 1.29551
+    gflops_per_sec: 3.49787
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12330345
+    time: 0.00456679
+    flops_per_cycle: 1.29761
+    gflops_per_sec: 3.50355
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12329148
+    time: 0.00456635
+    flops_per_cycle: 1.29774
+    gflops_per_sec: 3.50389
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12326907
+    time: 0.00456552
+    flops_per_cycle: 1.29797
+    gflops_per_sec: 3.50453
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12323625
+    time: 0.00456431
+    flops_per_cycle: 1.29832
+    gflops_per_sec: 3.50546
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12327291
+    time: 0.00456566
+    flops_per_cycle: 1.29793
+    gflops_per_sec: 3.50442
+  }
+  {
+    n: 200
+    order: kji
+    cycles: 12325890
+    time: 0.00456514
+    flops_per_cycle: 1.29808
+    gflops_per_sec: 3.50482
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2.5e+08 flops.
+  # TSC register has estimated resolution of 75 cycles.
+
+  {
+    n: 500
+    order: ijk
+    cycles: 435617733
+    time: 0.16134
+    flops_per_cycle: 0.573898
+    gflops_per_sec: 1.54952
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435498711
+    time: 0.161296
+    flops_per_cycle: 0.574055
+    gflops_per_sec: 1.54995
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435538908
+    time: 0.161311
+    flops_per_cycle: 0.574002
+    gflops_per_sec: 1.5498
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435736569
+    time: 0.161384
+    flops_per_cycle: 0.573741
+    gflops_per_sec: 1.5491
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435550314
+    time: 0.161315
+    flops_per_cycle: 0.573986
+    gflops_per_sec: 1.54976
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435575634
+    time: 0.161324
+    flops_per_cycle: 0.573953
+    gflops_per_sec: 1.54967
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435570096
+    time: 0.161322
+    flops_per_cycle: 0.57396
+    gflops_per_sec: 1.54969
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435545052
+    time: 0.161313
+    flops_per_cycle: 0.573993
+    gflops_per_sec: 1.54978
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435530697
+    time: 0.161308
+    flops_per_cycle: 0.574012
+    gflops_per_sec: 1.54983
+  }
+  {
+    n: 500
+    order: ijk
+    cycles: 435573243
+    time: 0.161323
+    flops_per_cycle: 0.573956
+    gflops_per_sec: 1.54968
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2.5e+08 flops.
+  # TSC register has estimated resolution of 72 cycles.
+
+  {
+    n: 500
+    order: ikj
+    cycles: 5621494722
+    time: 2.08204
+    flops_per_cycle: 0.0444722
+    gflops_per_sec: 0.120075
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5621329233
+    time: 2.08197
+    flops_per_cycle: 0.0444735
+    gflops_per_sec: 0.120078
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5621285181
+    time: 2.08196
+    flops_per_cycle: 0.0444738
+    gflops_per_sec: 0.120079
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5621187465
+    time: 2.08192
+    flops_per_cycle: 0.0444746
+    gflops_per_sec: 0.120081
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5621114604
+    time: 2.08189
+    flops_per_cycle: 0.0444752
+    gflops_per_sec: 0.120083
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5620933248
+    time: 2.08183
+    flops_per_cycle: 0.0444766
+    gflops_per_sec: 0.120087
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5621224047
+    time: 2.08193
+    flops_per_cycle: 0.0444743
+    gflops_per_sec: 0.120081
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5621000004
+    time: 2.08185
+    flops_per_cycle: 0.0444761
+    gflops_per_sec: 0.120085
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5620977795
+    time: 2.08184
+    flops_per_cycle: 0.0444762
+    gflops_per_sec: 0.120086
+  }
+  {
+    n: 500
+    order: ikj
+    cycles: 5620932018
+    time: 2.08183
+    flops_per_cycle: 0.0444766
+    gflops_per_sec: 0.120087
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2.5e+08 flops.
+  # TSC register has estimated resolution of 33 cycles.
+
+  {
+    n: 500
+    order: kij
+    cycles: 5606074635
+    time: 2.07632
+    flops_per_cycle: 0.0445945
+    gflops_per_sec: 0.120405
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5606064570
+    time: 2.07632
+    flops_per_cycle: 0.0445946
+    gflops_per_sec: 0.120405
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5606006880
+    time: 2.0763
+    flops_per_cycle: 0.044595
+    gflops_per_sec: 0.120407
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5605941540
+    time: 2.07627
+    flops_per_cycle: 0.0445955
+    gflops_per_sec: 0.120408
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5605909509
+    time: 2.07626
+    flops_per_cycle: 0.0445958
+    gflops_per_sec: 0.120409
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5605835436
+    time: 2.07624
+    flops_per_cycle: 0.0445964
+    gflops_per_sec: 0.12041
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5605722963
+    time: 2.07619
+    flops_per_cycle: 0.0445973
+    gflops_per_sec: 0.120413
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5605720842
+    time: 2.07619
+    flops_per_cycle: 0.0445973
+    gflops_per_sec: 0.120413
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5605865667
+    time: 2.07625
+    flops_per_cycle: 0.0445961
+    gflops_per_sec: 0.12041
+  }
+  {
+    n: 500
+    order: kij
+    cycles: 5605841925
+    time: 2.07624
+    flops_per_cycle: 0.0445963
+    gflops_per_sec: 0.12041
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2.5e+08 flops.
+  # TSC register has estimated resolution of 33 cycles.
+
+  {
+    n: 500
+    order: jik
+    cycles: 452527179
+    time: 0.167603
+    flops_per_cycle: 0.552453
+    gflops_per_sec: 1.49162
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452336994
+    time: 0.167532
+    flops_per_cycle: 0.552685
+    gflops_per_sec: 1.49225
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452350086
+    time: 0.167537
+    flops_per_cycle: 0.552669
+    gflops_per_sec: 1.49221
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452376282
+    time: 0.167547
+    flops_per_cycle: 0.552637
+    gflops_per_sec: 1.49212
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452390493
+    time: 0.167552
+    flops_per_cycle: 0.55262
+    gflops_per_sec: 1.49207
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452333829
+    time: 0.167531
+    flops_per_cycle: 0.552689
+    gflops_per_sec: 1.49226
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452355543
+    time: 0.167539
+    flops_per_cycle: 0.552663
+    gflops_per_sec: 1.49219
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452392404
+    time: 0.167553
+    flops_per_cycle: 0.552618
+    gflops_per_sec: 1.49207
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452333664
+    time: 0.167531
+    flops_per_cycle: 0.552689
+    gflops_per_sec: 1.49226
+  }
+  {
+    n: 500
+    order: jik
+    cycles: 452388825
+    time: 0.167551
+    flops_per_cycle: 0.552622
+    gflops_per_sec: 1.49208
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2.5e+08 flops.
+  # TSC register has estimated resolution of 33 cycles.
+
+  {
+    n: 500
+    order: jki
+    cycles: 177956655
+    time: 0.0659099
+    flops_per_cycle: 1.40484
+    gflops_per_sec: 3.79306
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177855909
+    time: 0.0658726
+    flops_per_cycle: 1.40563
+    gflops_per_sec: 3.79521
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177867711
+    time: 0.0658769
+    flops_per_cycle: 1.40554
+    gflops_per_sec: 3.79496
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177878982
+    time: 0.0658811
+    flops_per_cycle: 1.40545
+    gflops_per_sec: 3.79471
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177932667
+    time: 0.065901
+    flops_per_cycle: 1.40503
+    gflops_per_sec: 3.79357
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177882249
+    time: 0.0658823
+    flops_per_cycle: 1.40542
+    gflops_per_sec: 3.79465
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177843576
+    time: 0.065868
+    flops_per_cycle: 1.40573
+    gflops_per_sec: 3.79547
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177908685
+    time: 0.0658921
+    flops_per_cycle: 1.40522
+    gflops_per_sec: 3.79408
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177885411
+    time: 0.0658835
+    flops_per_cycle: 1.4054
+    gflops_per_sec: 3.79458
+  }
+  {
+    n: 500
+    order: jki
+    cycles: 177883380
+    time: 0.0658827
+    flops_per_cycle: 1.40542
+    gflops_per_sec: 3.79462
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2.5e+08 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 500
+    order: kji
+    cycles: 203656923
+    time: 0.0754285
+    flops_per_cycle: 1.22755
+    gflops_per_sec: 3.3144
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 203546514
+    time: 0.0753876
+    flops_per_cycle: 1.22822
+    gflops_per_sec: 3.3162
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 203549286
+    time: 0.0753886
+    flops_per_cycle: 1.2282
+    gflops_per_sec: 3.31615
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 203593722
+    time: 0.0754051
+    flops_per_cycle: 1.22794
+    gflops_per_sec: 3.31543
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 205080063
+    time: 0.0759556
+    flops_per_cycle: 1.21904
+    gflops_per_sec: 3.2914
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 205931187
+    time: 0.0762708
+    flops_per_cycle: 1.214
+    gflops_per_sec: 3.27779
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 205950420
+    time: 0.0762779
+    flops_per_cycle: 1.21388
+    gflops_per_sec: 3.27749
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 205947684
+    time: 0.0762769
+    flops_per_cycle: 1.2139
+    gflops_per_sec: 3.27753
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 205958499
+    time: 0.0762809
+    flops_per_cycle: 1.21384
+    gflops_per_sec: 3.27736
+  }
+  {
+    n: 500
+    order: kji
+    cycles: 205934877
+    time: 0.0762722
+    flops_per_cycle: 1.21398
+    gflops_per_sec: 3.27774
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+09 flops.
+  # TSC register has estimated resolution of 69 cycles.
+
+  {
+    n: 1000
+    order: ijk
+    cycles: 21081249993
+    time: 7.80787
+    flops_per_cycle: 0.094871
+    gflops_per_sec: 0.256152
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21081426108
+    time: 7.80794
+    flops_per_cycle: 0.0948702
+    gflops_per_sec: 0.25615
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21081084015
+    time: 7.80781
+    flops_per_cycle: 0.0948718
+    gflops_per_sec: 0.256154
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21081268620
+    time: 7.80788
+    flops_per_cycle: 0.094871
+    gflops_per_sec: 0.256152
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21081151428
+    time: 7.80783
+    flops_per_cycle: 0.0948715
+    gflops_per_sec: 0.256153
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21080837607
+    time: 7.80772
+    flops_per_cycle: 0.0948729
+    gflops_per_sec: 0.256157
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21081082866
+    time: 7.80781
+    flops_per_cycle: 0.0948718
+    gflops_per_sec: 0.256154
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21081095577
+    time: 7.80781
+    flops_per_cycle: 0.0948717
+    gflops_per_sec: 0.256154
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21080844420
+    time: 7.80772
+    flops_per_cycle: 0.0948729
+    gflops_per_sec: 0.256157
+  }
+  {
+    n: 1000
+    order: ijk
+    cycles: 21080996487
+    time: 7.80778
+    flops_per_cycle: 0.0948722
+    gflops_per_sec: 0.256155
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+09 flops.
+  # TSC register has estimated resolution of 195 cycles.
+
+  {
+    n: 1000
+    order: ikj
+    cycles: 48918287100
+    time: 18.1179
+    flops_per_cycle: 0.0408845
+    gflops_per_sec: 0.110388
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48920901696
+    time: 18.1189
+    flops_per_cycle: 0.0408823
+    gflops_per_sec: 0.110382
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48916833258
+    time: 18.1173
+    flops_per_cycle: 0.0408857
+    gflops_per_sec: 0.110391
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48917681076
+    time: 18.1177
+    flops_per_cycle: 0.040885
+    gflops_per_sec: 0.11039
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48917168874
+    time: 18.1175
+    flops_per_cycle: 0.0408854
+    gflops_per_sec: 0.110391
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48917451591
+    time: 18.1176
+    flops_per_cycle: 0.0408852
+    gflops_per_sec: 0.11039
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48917618217
+    time: 18.1176
+    flops_per_cycle: 0.0408851
+    gflops_per_sec: 0.11039
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48917344209
+    time: 18.1175
+    flops_per_cycle: 0.0408853
+    gflops_per_sec: 0.11039
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48917784870
+    time: 18.1177
+    flops_per_cycle: 0.0408849
+    gflops_per_sec: 0.110389
+  }
+  {
+    n: 1000
+    order: ikj
+    cycles: 48917973789
+    time: 18.1178
+    flops_per_cycle: 0.0408848
+    gflops_per_sec: 0.110389
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+09 flops.
+  # TSC register has estimated resolution of 222 cycles.
+
+  {
+    n: 1000
+    order: kij
+    cycles: 49098664251
+    time: 18.1847
+    flops_per_cycle: 0.0407343
+    gflops_per_sec: 0.109983
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49098506748
+    time: 18.1846
+    flops_per_cycle: 0.0407344
+    gflops_per_sec: 0.109983
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49100695779
+    time: 18.1854
+    flops_per_cycle: 0.0407326
+    gflops_per_sec: 0.109978
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49098659256
+    time: 18.1847
+    flops_per_cycle: 0.0407343
+    gflops_per_sec: 0.109983
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49098275922
+    time: 18.1845
+    flops_per_cycle: 0.0407346
+    gflops_per_sec: 0.109983
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49098137718
+    time: 18.1845
+    flops_per_cycle: 0.0407347
+    gflops_per_sec: 0.109984
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49098183636
+    time: 18.1845
+    flops_per_cycle: 0.0407347
+    gflops_per_sec: 0.109984
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49098423675
+    time: 18.1846
+    flops_per_cycle: 0.0407345
+    gflops_per_sec: 0.109983
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49098293184
+    time: 18.1846
+    flops_per_cycle: 0.0407346
+    gflops_per_sec: 0.109983
+  }
+  {
+    n: 1000
+    order: kij
+    cycles: 49097845842
+    time: 18.1844
+    flops_per_cycle: 0.040735
+    gflops_per_sec: 0.109984
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+09 flops.
+  # TSC register has estimated resolution of 72 cycles.
+
+  {
+    n: 1000
+    order: jik
+    cycles: 21167436216
+    time: 7.83979
+    flops_per_cycle: 0.0944848
+    gflops_per_sec: 0.255109
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166823202
+    time: 7.83956
+    flops_per_cycle: 0.0944875
+    gflops_per_sec: 0.255116
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166782396
+    time: 7.83955
+    flops_per_cycle: 0.0944877
+    gflops_per_sec: 0.255117
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166611867
+    time: 7.83949
+    flops_per_cycle: 0.0944884
+    gflops_per_sec: 0.255119
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166622454
+    time: 7.83949
+    flops_per_cycle: 0.0944884
+    gflops_per_sec: 0.255119
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166637445
+    time: 7.8395
+    flops_per_cycle: 0.0944883
+    gflops_per_sec: 0.255118
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166474071
+    time: 7.83943
+    flops_per_cycle: 0.094489
+    gflops_per_sec: 0.25512
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166558356
+    time: 7.83947
+    flops_per_cycle: 0.0944887
+    gflops_per_sec: 0.255119
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166888068
+    time: 7.83959
+    flops_per_cycle: 0.0944872
+    gflops_per_sec: 0.255115
+  }
+  {
+    n: 1000
+    order: jik
+    cycles: 21166578189
+    time: 7.83947
+    flops_per_cycle: 0.0944886
+    gflops_per_sec: 0.255119
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+09 flops.
+  # TSC register has estimated resolution of 210 cycles.
+
+  {
+    n: 1000
+    order: jki
+    cycles: 1422188277
+    time: 0.526736
+    flops_per_cycle: 1.40628
+    gflops_per_sec: 3.79697
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1421995113
+    time: 0.526665
+    flops_per_cycle: 1.40647
+    gflops_per_sec: 3.79748
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423723509
+    time: 0.527305
+    flops_per_cycle: 1.40477
+    gflops_per_sec: 3.79287
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423842084
+    time: 0.527349
+    flops_per_cycle: 1.40465
+    gflops_per_sec: 3.79256
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423701060
+    time: 0.527297
+    flops_per_cycle: 1.40479
+    gflops_per_sec: 3.79293
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423764276
+    time: 0.52732
+    flops_per_cycle: 1.40473
+    gflops_per_sec: 3.79276
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423549869
+    time: 0.527241
+    flops_per_cycle: 1.40494
+    gflops_per_sec: 3.79333
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423840842
+    time: 0.527348
+    flops_per_cycle: 1.40465
+    gflops_per_sec: 3.79256
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423613739
+    time: 0.527264
+    flops_per_cycle: 1.40488
+    gflops_per_sec: 3.79316
+  }
+  {
+    n: 1000
+    order: jki
+    cycles: 1423607034
+    time: 0.527262
+    flops_per_cycle: 1.40488
+    gflops_per_sec: 3.79318
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2e+09 flops.
+  # TSC register has estimated resolution of 45 cycles.
+
+  {
+    n: 1000
+    order: kji
+    cycles: 1605312693
+    time: 0.59456
+    flops_per_cycle: 1.24586
+    gflops_per_sec: 3.36383
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1608987750
+    time: 0.595921
+    flops_per_cycle: 1.24302
+    gflops_per_sec: 3.35615
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609510398
+    time: 0.596115
+    flops_per_cycle: 1.24261
+    gflops_per_sec: 3.35506
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609447326
+    time: 0.596092
+    flops_per_cycle: 1.24266
+    gflops_per_sec: 3.35519
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609740273
+    time: 0.5962
+    flops_per_cycle: 1.24244
+    gflops_per_sec: 3.35458
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609623543
+    time: 0.596157
+    flops_per_cycle: 1.24253
+    gflops_per_sec: 3.35482
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609494759
+    time: 0.596109
+    flops_per_cycle: 1.24263
+    gflops_per_sec: 3.35509
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609560972
+    time: 0.596134
+    flops_per_cycle: 1.24257
+    gflops_per_sec: 3.35495
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609502988
+    time: 0.596112
+    flops_per_cycle: 1.24262
+    gflops_per_sec: 3.35507
+  }
+  {
+    n: 1000
+    order: kji
+    cycles: 1609698987
+    time: 0.596185
+    flops_per_cycle: 1.24247
+    gflops_per_sec: 3.35466
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+10 flops.
+  # TSC register has estimated resolution of 237 cycles.
+
+  {
+    n: 2000
+    order: ijk
+    cycles: 204381890841
+    time: 75.697
+    flops_per_cycle: 0.0782848
+    gflops_per_sec: 0.211369
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204377387235
+    time: 75.6953
+    flops_per_cycle: 0.0782865
+    gflops_per_sec: 0.211374
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204379355994
+    time: 75.6961
+    flops_per_cycle: 0.0782858
+    gflops_per_sec: 0.211372
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204387090969
+    time: 75.6989
+    flops_per_cycle: 0.0782828
+    gflops_per_sec: 0.211364
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204382549200
+    time: 75.6972
+    flops_per_cycle: 0.0782846
+    gflops_per_sec: 0.211368
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204380821062
+    time: 75.6966
+    flops_per_cycle: 0.0782852
+    gflops_per_sec: 0.21137
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204376653012
+    time: 75.6951
+    flops_per_cycle: 0.0782868
+    gflops_per_sec: 0.211374
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204382422795
+    time: 75.6972
+    flops_per_cycle: 0.0782846
+    gflops_per_sec: 0.211368
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204380380590
+    time: 75.6964
+    flops_per_cycle: 0.0782854
+    gflops_per_sec: 0.211371
+  }
+  {
+    n: 2000
+    order: ijk
+    cycles: 204380794005
+    time: 75.6966
+    flops_per_cycle: 0.0782852
+    gflops_per_sec: 0.21137
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+10 flops.
+  # TSC register has estimated resolution of 228 cycles.
+
+  {
+    n: 2000
+    order: ikj
+    cycles: 545812274880
+    time: 202.153
+    flops_per_cycle: 0.0293141
+    gflops_per_sec: 0.0791481
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 544324843299
+    time: 201.602
+    flops_per_cycle: 0.0293942
+    gflops_per_sec: 0.0793644
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 544048641756
+    time: 201.499
+    flops_per_cycle: 0.0294091
+    gflops_per_sec: 0.0794047
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 544038337773
+    time: 201.496
+    flops_per_cycle: 0.0294097
+    gflops_per_sec: 0.0794062
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 544022649711
+    time: 201.49
+    flops_per_cycle: 0.0294105
+    gflops_per_sec: 0.0794085
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 543992302428
+    time: 201.479
+    flops_per_cycle: 0.0294122
+    gflops_per_sec: 0.0794129
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 544022833575
+    time: 201.49
+    flops_per_cycle: 0.0294105
+    gflops_per_sec: 0.0794084
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 545775722181
+    time: 202.139
+    flops_per_cycle: 0.0293161
+    gflops_per_sec: 0.0791534
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 545802098511
+    time: 202.149
+    flops_per_cycle: 0.0293147
+    gflops_per_sec: 0.0791496
+  }
+  {
+    n: 2000
+    order: ikj
+    cycles: 545786385576
+    time: 202.143
+    flops_per_cycle: 0.0293155
+    gflops_per_sec: 0.0791518
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+10 flops.
+  # TSC register has estimated resolution of 231 cycles.
+
+  {
+    n: 2000
+    order: kij
+    cycles: 545674435242
+    time: 202.102
+    flops_per_cycle: 0.0293215
+    gflops_per_sec: 0.0791681
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545681847771
+    time: 202.104
+    flops_per_cycle: 0.0293211
+    gflops_per_sec: 0.079167
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545688289677
+    time: 202.107
+    flops_per_cycle: 0.0293208
+    gflops_per_sec: 0.0791661
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545707201350
+    time: 202.114
+    flops_per_cycle: 0.0293198
+    gflops_per_sec: 0.0791633
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545720396403
+    time: 202.119
+    flops_per_cycle: 0.029319
+    gflops_per_sec: 0.0791614
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545689426692
+    time: 202.107
+    flops_per_cycle: 0.0293207
+    gflops_per_sec: 0.0791659
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545704794684
+    time: 202.113
+    flops_per_cycle: 0.0293199
+    gflops_per_sec: 0.0791637
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545701565334
+    time: 202.112
+    flops_per_cycle: 0.0293201
+    gflops_per_sec: 0.0791641
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545703960912
+    time: 202.113
+    flops_per_cycle: 0.0293199
+    gflops_per_sec: 0.0791638
+  }
+  {
+    n: 2000
+    order: kij
+    cycles: 545705620215
+    time: 202.113
+    flops_per_cycle: 0.0293198
+    gflops_per_sec: 0.0791636
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+10 flops.
+  # TSC register has estimated resolution of 33 cycles.
+
+  {
+    n: 2000
+    order: jik
+    cycles: 206004112254
+    time: 76.2978
+    flops_per_cycle: 0.0776684
+    gflops_per_sec: 0.209705
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206003196237
+    time: 76.2975
+    flops_per_cycle: 0.0776687
+    gflops_per_sec: 0.209705
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206006652465
+    time: 76.2988
+    flops_per_cycle: 0.0776674
+    gflops_per_sec: 0.209702
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206005685082
+    time: 76.2984
+    flops_per_cycle: 0.0776678
+    gflops_per_sec: 0.209703
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206007896502
+    time: 76.2992
+    flops_per_cycle: 0.0776669
+    gflops_per_sec: 0.209701
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206006928369
+    time: 76.2989
+    flops_per_cycle: 0.0776673
+    gflops_per_sec: 0.209702
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206005028433
+    time: 76.2982
+    flops_per_cycle: 0.077668
+    gflops_per_sec: 0.209704
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206004050223
+    time: 76.2978
+    flops_per_cycle: 0.0776684
+    gflops_per_sec: 0.209705
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206002562676
+    time: 76.2972
+    flops_per_cycle: 0.0776689
+    gflops_per_sec: 0.209706
+  }
+  {
+    n: 2000
+    order: jik
+    cycles: 206005220946
+    time: 76.2982
+    flops_per_cycle: 0.0776679
+    gflops_per_sec: 0.209703
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+10 flops.
+  # TSC register has estimated resolution of 30 cycles.
+
+  {
+    n: 2000
+    order: jki
+    cycles: 17074272228
+    time: 6.3238
+    flops_per_cycle: 0.937082
+    gflops_per_sec: 2.53012
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17058439779
+    time: 6.31794
+    flops_per_cycle: 0.937952
+    gflops_per_sec: 2.53247
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17060425677
+    time: 6.31868
+    flops_per_cycle: 0.937843
+    gflops_per_sec: 2.53218
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17061093765
+    time: 6.31892
+    flops_per_cycle: 0.937806
+    gflops_per_sec: 2.53208
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17077818678
+    time: 6.32512
+    flops_per_cycle: 0.936888
+    gflops_per_sec: 2.5296
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17079860277
+    time: 6.32587
+    flops_per_cycle: 0.936776
+    gflops_per_sec: 2.52929
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17072909937
+    time: 6.3233
+    flops_per_cycle: 0.937157
+    gflops_per_sec: 2.53032
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17076433290
+    time: 6.3246
+    flops_per_cycle: 0.936964
+    gflops_per_sec: 2.5298
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17061555684
+    time: 6.31909
+    flops_per_cycle: 0.937781
+    gflops_per_sec: 2.53201
+  }
+  {
+    n: 2000
+    order: jki
+    cycles: 17074998945
+    time: 6.32407
+    flops_per_cycle: 0.937043
+    gflops_per_sec: 2.53001
+  }
+]
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 1.6e+10 flops.
+  # TSC register has estimated resolution of 33 cycles.
+
+  {
+    n: 2000
+    order: kji
+    cycles: 19518413436
+    time: 7.22904
+    flops_per_cycle: 0.819739
+    gflops_per_sec: 2.21329
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19518838098
+    time: 7.2292
+    flops_per_cycle: 0.819721
+    gflops_per_sec: 2.21325
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19515915711
+    time: 7.22812
+    flops_per_cycle: 0.819844
+    gflops_per_sec: 2.21358
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19517827833
+    time: 7.22883
+    flops_per_cycle: 0.819763
+    gflops_per_sec: 2.21336
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19517714484
+    time: 7.22878
+    flops_per_cycle: 0.819768
+    gflops_per_sec: 2.21337
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19517967084
+    time: 7.22888
+    flops_per_cycle: 0.819758
+    gflops_per_sec: 2.21335
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19515328410
+    time: 7.2279
+    flops_per_cycle: 0.819868
+    gflops_per_sec: 2.21364
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19517728143
+    time: 7.22879
+    flops_per_cycle: 0.819768
+    gflops_per_sec: 2.21337
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19517852049
+    time: 7.22883
+    flops_per_cycle: 0.819762
+    gflops_per_sec: 2.21336
+  }
+  {
+    n: 2000
+    order: kji
+    cycles: 19516780101
+    time: 7.22844
+    flops_per_cycle: 0.819807
+    gflops_per_sec: 2.21348
+  }
+]

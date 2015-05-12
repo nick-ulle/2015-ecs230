@@ -1,0 +1,48 @@
+[
+[
+  # All times are in seconds.
+  # Assuming a 2.70e+09 Hz processor.
+  # Matrix multiplication will require 2.5e+11 flops.
+  # TSC register has estimated resolution of 246 cycles.
+
+  {
+    n: 5000
+    order: ijk
+    cycles: 4423076933856
+    time: 1638.18
+    flops_per_cycle: 0.0565217
+    gflops_per_sec: 0.152609
+  }
+  {
+    n: 5000
+    order: ijk
+    cycles: 4435938308124
+    time: 1642.94
+    flops_per_cycle: 0.0563579
+    gflops_per_sec: 0.152166
+  }
+  {
+    n: 5000
+    order: ijk
+    cycles: 4437304891578
+    time: 1643.45
+    flops_per_cycle: 0.0563405
+    gflops_per_sec: 0.152119
+  }
+  {
+    n: 5000
+    order: ijk
+    cycles: 4437349905975
+    time: 1643.46
+    flops_per_cycle: 0.0563399
+    gflops_per_sec: 0.152118
+  }
+  {
+    n: 5000
+    order: ijk
+    cycles: 4437311262237
+    time: 1643.45
+    flops_per_cycle: 0.0563404
+    gflops_per_sec: 0.152119
+  }
+]
