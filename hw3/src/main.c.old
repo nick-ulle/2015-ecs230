@@ -1,0 +1,43 @@
+    /*
+    int n = 3;
+
+    Matrix *A = matrix_new(n, n);
+    matrix_fill(A, 0);
+    A->value[0] = A->value[4] = A->value[8] = 1;
+    A->value[1] = A->value[3] = 3;
+    A->value[2] = A->value[6] = -1.1;
+
+    puts("A:"); matrix_print(A); puts("");
+
+    // Compute A'A.
+    Matrix *AA = matrix_new(n, n);
+    matrix_dgemm(1, A, 't', A, 'n', 0, AA);
+
+    puts("AA:"); matrix_print(AA); puts("");
+
+    // TODO: Compute Ax.
+
+    // Compute Cholesky decomposition LL'
+    Matrix *L = matrix_new(AA->nrow, AA->ncol);
+    matrix_copy(AA, L);
+    int status = matrix_dpotrf(L, 'L');
+
+    printf("Status: %d, L:\n", status);
+    matrix_print(L); puts("");
+
+    // Convert to lower triangular.
+    matrix_triangle(L, 'L');
+
+    puts("L:"); matrix_print(L); puts("");
+
+    // Try the product.
+    Matrix *LL = matrix_new(n, n);
+    matrix_dgemm(1, L, 'n', L, 't', 0, LL);
+
+    puts("LL:"); matrix_print(LL); puts("");
+
+    matrix_destroy(A);
+    matrix_destroy(AA);
+    matrix_destroy(L);
+    matrix_destroy(LL);
+    */
