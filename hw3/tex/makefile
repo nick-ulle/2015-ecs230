@@ -6,6 +6,7 @@ all: $(target)
 
 %.pdf: %.tex
 	pdflatex --fmt=$(template) --shell-escape $*
+	pdflatex --fmt=$(template) --shell-escape $*
 	rm -f $< *.aux *.out *.log
 
 %.tex: %.md

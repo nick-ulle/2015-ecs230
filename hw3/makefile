@@ -1,6 +1,5 @@
 
-CC= clang
-#CC = icc
+CC?= clang
 CFLAGS= -std=c99 -Wall -Wextra $(include)
 
 ifeq ($(CC), icc)

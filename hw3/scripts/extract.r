@@ -17,7 +17,7 @@ main = function() {
     }
 
     b = extract_coefficients(argv[2])
-    degree = length(b)
+    ncoef = length(b)
 
     data = read.table(argv[1], skip=1, col.names=c("x", "y"))
 
@@ -25,8 +25,8 @@ main = function() {
     poly = function(x) {
         len = length(x)
 
-        p = seq.int(0, degree - 1)
-        p = matrix(p, len, degree, byrow=TRUE)
+        p = seq.int(0, ncoef - 1)
+        p = matrix(p, len, ncoef, byrow=TRUE)
 
         x^p %*% b
     }
