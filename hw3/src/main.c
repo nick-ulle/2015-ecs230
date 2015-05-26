@@ -100,7 +100,7 @@ int main(int argc, char **argv)
     // Solve L'b = v.
     matrix_dtrsm(A, 'T', 1, u, 'L');
 
-    puts("b ="); matrix_print(u, 10); puts("");
+    puts("b ="); matrix_print(u, 15); puts("");
 
     // Free remaining matrices.
     matrix_free(y);
