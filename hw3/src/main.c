@@ -34,13 +34,13 @@ void model_matrix(Matrix *x, int degree, Matrix **X_ptr)
 {
     int nrow = x->nrow;
 
-    *X_ptr = matrix_new(nrow, degree);
+    *X_ptr = matrix_new(nrow, degree + 1);
     double *X = (*X_ptr)->value;
 
     for (int i = 0; i < nrow; i++)
         X[i] = 1;
 
-    for (int j = 1; j < degree; j++)
+    for (int j = 1; j < degree + 1; j++)
         for (int i = 0; i < nrow; i++) 
             X[i + j * nrow] = X[i + (j - 1) * nrow] * x->value[i];
 }
